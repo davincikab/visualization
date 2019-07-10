@@ -1,7 +1,7 @@
 // Declare a map variable: pass the map container id, set the center and the zoom level
 let map = L.map('map').setView([ -0.4223876953125,36.056884765625], 9);
 
-Add a tilelayer: provide the url and the attribution
+// Add a tilelayer: provide the url and the attribution
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
